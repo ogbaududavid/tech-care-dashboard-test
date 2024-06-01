@@ -1,0 +1,47 @@
+.side-bar{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    width: 20%;
+}
+.search-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding: 20px; 
+}
+.results-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    overflow: auto;
+}
+.card-item-container:hover{
+    background-color: #D8FCF7;
+}
+.card-item-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.selected-patient{
+    background-color: #D8FCF7;
+}
+.card-details{
+    display: flex;
+    gap: 10px;
+}
+.card-details img{
+    width: 50px;
+}
+.details-container p{
+    margin: 0;
+}
+.patients-name{
+    font-weight: 600;
+}
+.additional-details{
+    color: #707070;
+    display: flex;
+    gap: 10px;
+}

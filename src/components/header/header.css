@@ -1,0 +1,51 @@
+.app-header{
+    padding: 10px 18px 10px 18px;
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.company-logo{
+    display: flex;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list .nav-item{ 
+    border-radius: 40px;
+}
+.nav-list .nav-item:hover{ 
+    background-color: #01F0D0;
+}
+.nav-item a{
+    display: flex;
+    gap: 5px;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    color: #000000;
+}
+.active{
+    background-color: #01F0D0;
+}
+.doctors-acct{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.doctors-acct .doctors-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.doctors-info .info-details{
+    padding-right: 10px;
+    border-right: 1px solid rgb(223, 223, 223) ;
+}
+.doctors-info .info-details p{
+    margin: 0;
+    padding: 0;
+}
+.doctors-info .info-details::first-line{
+    font-weight: 500;
+}
